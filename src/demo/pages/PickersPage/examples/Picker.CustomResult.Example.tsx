@@ -48,8 +48,8 @@ const data: IFullDocumentCardProps[] = [
     documentPreviewProps: {
       previewImages: [
         {
-          previewImageSrc: 'dist/document-preview.png',
-          iconSrc: 'dist/icon-ppt.png',
+          previewImageSrc: '/Modules/DevOffice.Fabric/dist/document-preview.png',
+          iconSrc: '/Modules/DevOffice.Fabric/dist/icon-ppt.png',
           imageFit: ImageFit.cover,
           width: 318,
           height: 196,
@@ -88,9 +88,9 @@ const data: IFullDocumentCardProps[] = [
       activity: 'Created Feb 23, 2016',
       people:
       [
-        { name: 'Kat Larrson', profileImageSrc: 'dist/avatar-kat.png' },
+        { name: 'Kat Larrson', profileImageSrc: '/Modules/DevOffice.Fabric/dist/avatar-kat.png' },
         { name: 'Josh Hancock', profileImageSrc: '', initials: 'JH' },
-        { name: 'Tina Dasani', profileImageSrc: 'dist/avatar-kat.png' }
+        { name: 'Tina Dasani', profileImageSrc: '/Modules/DevOffice.Fabric/dist/avatar-kat.png' }
       ]
     },
     documentTitleProps: {
@@ -102,8 +102,8 @@ const data: IFullDocumentCardProps[] = [
     documentPreviewProps: {
       previewImages: [
         {
-          previewImageSrc: 'dist/document-preview.png',
-          iconSrc: 'dist/icon-ppt.png',
+          previewImageSrc: '/Modules/DevOffice.Fabric/dist/document-preview.png',
+          iconSrc: '/Modules/DevOffice.Fabric/dist/icon-ppt.png',
           imageFit: ImageFit.cover,
           width: 318,
           height: 196,
@@ -142,9 +142,9 @@ const data: IFullDocumentCardProps[] = [
       activity: 'Created Feb 23, 2016',
       people:
       [
-        { name: 'Kat Larrson', profileImageSrc: 'dist/avatar-kat.png' },
+        { name: 'Kat Larrson', profileImageSrc: '/Modules/DevOffice.Fabric/dist/avatar-kat.png' },
         { name: 'Josh Hancock', profileImageSrc: '', initials: 'JH' },
-        { name: 'Tina Dasani', profileImageSrc: 'dist/avatar-kat.png' }
+        { name: 'Tina Dasani', profileImageSrc: '/Modules/DevOffice.Fabric/dist/avatar-kat.png' }
       ]
     },
     documentTitleProps: {
@@ -156,8 +156,8 @@ const data: IFullDocumentCardProps[] = [
     documentPreviewProps: {
       previewImages: [
         {
-          previewImageSrc: 'dist/document-preview2.png',
-          iconSrc: 'dist/icon-ppt.png',
+          previewImageSrc: '/Modules/DevOffice.Fabric/dist/document-preview2.png',
+          iconSrc: '/Modules/DevOffice.Fabric/dist/icon-ppt.png',
           imageFit: ImageFit.cover,
           width: 318,
           height: 196,
@@ -196,9 +196,9 @@ const data: IFullDocumentCardProps[] = [
       activity: 'Created Feb 23, 2016',
       people:
       [
-        { name: 'Kat Larrson', profileImageSrc: 'dist/avatar-kat.png' },
+        { name: 'Kat Larrson', profileImageSrc: '/Modules/DevOffice.Fabric/dist/avatar-kat.png' },
         { name: 'Josh Hancock', profileImageSrc: '', initials: 'JH' },
-        { name: 'Tina Dasani', profileImageSrc: 'dist/avatar-kat.png' }
+        { name: 'Tina Dasani', profileImageSrc: '/Modules/DevOffice.Fabric/dist/avatar-kat.png' }
       ]
     },
     documentTitleProps: {
@@ -210,8 +210,8 @@ const data: IFullDocumentCardProps[] = [
     documentPreviewProps: {
       previewImages: [
         {
-          previewImageSrc: 'dist/document-preview3.png',
-          iconSrc: 'dist/icon-ppt.png',
+          previewImageSrc: '/Modules/DevOffice.Fabric/dist/document-preview3.png',
+          iconSrc: '/Modules/DevOffice.Fabric/dist/icon-ppt.png',
           imageFit: ImageFit.cover,
           width: 318,
           height: 196,
@@ -250,9 +250,9 @@ const data: IFullDocumentCardProps[] = [
       activity: 'Created Feb 23, 2016',
       people:
       [
-        { name: 'Kat Larrson', profileImageSrc: 'dist/avatar-kat.png' },
+        { name: 'Kat Larrson', profileImageSrc: '/Modules/DevOffice.Fabric/dist/avatar-kat.png' },
         { name: 'Josh Hancock', profileImageSrc: '', initials: 'JH' },
-        { name: 'Tina Dasani', profileImageSrc: 'dist/avatar-kat.png' }
+        { name: 'Tina Dasani', profileImageSrc: '/Modules/DevOffice.Fabric/dist/avatar-kat.png' }
       ]
     },
     documentTitleProps: {
