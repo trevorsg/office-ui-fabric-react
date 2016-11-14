@@ -52,29 +52,29 @@ export class ChoiceGroupBasicExample extends React.Component<any, IChoiceGroupBa
           onChanged={ this._onChanged }
           label='Pick one'
           required={ true }
-        />
+          />
         <ChoiceGroup
           label='Pick one image'
           options={ [
             {
               key: 'bar',
               isChecked: this.state.imageKey === 'bar',
-              imageSrc: '/Modules/DevOffice.Fabric/dist/choicegroup-bar-unselected.png',
-              selectedImageSrc: '/Modules/DevOffice.Fabric/dist/choicegroup-bar-selected.png',
+              imageSrc: '/Modules/DevOffice.Fabric/dist/images/choicegroup-bar-unselected.png',
+              selectedImageSrc: '/Modules/DevOffice.Fabric/dist/images/choicegroup-bar-selected.png',
               imageSize: { width: 50, height: 50 },
               text: 'Bar chart'
             },
             {
               key: 'pie',
               isChecked: this.state.imageKey === 'pie',
-              imageSrc: '/Modules/DevOffice.Fabric/dist/choicegroup-pie-unselected.png',
-              selectedImageSrc: '/Modules/DevOffice.Fabric/dist/choicegroup-pie-selected.png',
+              imageSrc: '/Modules/DevOffice.Fabric/dist/images/choicegroup-pie-unselected.png',
+              selectedImageSrc: '/Modules/DevOffice.Fabric/dist/images/choicegroup-pie-selected.png',
               imageSize: { width: 50, height: 50 },
               text: 'Pie chart'
             }
           ] }
           onChanged={ this._onImageChoiceGroupChange }
-        />
+          />
       </div>
     );
   }
