@@ -14,13 +14,13 @@ import { DocumentCardTitle } from '../../../../components/DocumentCard/DocumentC
 export class DocumentCardCompleteExample extends React.Component<any, any> {
   public render() {
     let previewProps: IDocumentCardPreviewProps = {
-      getOverflowDocumentCountText: (overflowCount: number) => `+${ overflowCount } more`,
+      getOverflowDocumentCountText: (overflowCount: number) => `+${overflowCount} more`,
       previewImages: [
         {
           name: '2016 Conference Presentation',
           url: 'http://bing.com',
-          previewImageSrc: 'dist/document-preview.png',
-          iconSrc: 'dist/icon-ppt.png',
+          previewImageSrc: '/Modules/DevOffice.Fabric/dist/document-preview.png',
+          iconSrc: '/Modules/DevOffice.Fabric/dist/icon-ppt.png',
           imageFit: ImageFit.cover,
           width: 318,
           height: 196,
@@ -29,8 +29,8 @@ export class DocumentCardCompleteExample extends React.Component<any, any> {
         {
           name: 'New Contoso Collaboration for Conference Presentation Draft',
           url: 'http://bing.com',
-          previewImageSrc: 'dist/document-preview2.png',
-          iconSrc: 'dist/icon-ppt.png',
+          previewImageSrc: '/Modules/DevOffice.Fabric/dist/document-preview2.png',
+          iconSrc: '/Modules/DevOffice.Fabric/dist/icon-ppt.png',
           imageFit: ImageFit.cover,
           width: 318,
           height: 196,
@@ -39,8 +39,8 @@ export class DocumentCardCompleteExample extends React.Component<any, any> {
         {
           name: 'Spec Sheet for design',
           url: 'http://bing.com',
-          previewImageSrc: 'dist/document-preview3.png',
-          iconSrc: 'dist/icon-ppt.png',
+          previewImageSrc: '/Modules/DevOffice.Fabric/dist/document-preview3.png',
+          iconSrc: '/Modules/DevOffice.Fabric/dist/icon-ppt.png',
           imageFit: ImageFit.cover,
           width: 318,
           height: 196,
@@ -49,8 +49,8 @@ export class DocumentCardCompleteExample extends React.Component<any, any> {
         {
           name: 'Contoso Marketing Presentation',
           url: 'http://bing.com',
-          previewImageSrc: 'dist/document-preview.png',
-          iconSrc: 'dist/icon-ppt.png',
+          previewImageSrc: '/Modules/DevOffice.Fabric/dist/document-preview.png',
+          iconSrc: '/Modules/DevOffice.Fabric/dist/icon-ppt.png',
           imageFit: ImageFit.cover,
           width: 318,
           height: 196,
@@ -59,8 +59,8 @@ export class DocumentCardCompleteExample extends React.Component<any, any> {
         {
           name: 'Notes from Ignite conference',
           url: 'http://bing.com',
-          previewImageSrc: 'dist/document-preview2.png',
-          iconSrc: 'dist/icon-ppt.png',
+          previewImageSrc: '/Modules/DevOffice.Fabric/dist/document-preview2.png',
+          iconSrc: '/Modules/DevOffice.Fabric/dist/icon-ppt.png',
           imageFit: ImageFit.cover,
           width: 318,
           height: 196,
@@ -69,8 +69,8 @@ export class DocumentCardCompleteExample extends React.Component<any, any> {
         {
           name: 'FY17 Cost Projections',
           url: 'http://bing.com',
-          previewImageSrc: 'dist/document-preview3.png',
-          iconSrc: 'dist/icon-ppt.png',
+          previewImageSrc: '/Modules/DevOffice.Fabric/dist/document-preview3.png',
+          iconSrc: '/Modules/DevOffice.Fabric/dist/icon-ppt.png',
           imageFit: ImageFit.cover,
           width: 318,
           height: 196,
@@ -81,23 +81,23 @@ export class DocumentCardCompleteExample extends React.Component<any, any> {
     };
 
     return (
-        <DocumentCard
-          onClick={ () => { console.log('You clicked the card.'); } }
+      <DocumentCard
+        onClick={ () => { console.log('You clicked the card.'); } }
         >
-          <DocumentCardPreview { ...previewProps }/>
-          <DocumentCardLocation location='Marketing Documents' locationHref='http://microsoft.com' ariaLabel='Location, Marketing Documents'/>
-          <DocumentCardTitle title='6 files were uploaded'/>
-          <DocumentCardActivity
-            activity='Created Feb 23, 2016'
-            people={
-              [
-                { name: 'Annie Lindqvist', profileImageSrc: 'images/persona-female.png' },
-                { name: 'Roko Kolar', profileImageSrc: '', initials: 'JH' },
-                { name: 'Greta Lundberg', profileImageSrc: 'images/persona-female.png' }
-              ]
-            }
+        <DocumentCardPreview { ...previewProps } />
+        <DocumentCardLocation location='Marketing Documents' locationHref='http://microsoft.com' ariaLabel='Location, Marketing Documents' />
+        <DocumentCardTitle title='6 files were uploaded' />
+        <DocumentCardActivity
+          activity='Created Feb 23, 2016'
+          people={
+            [
+              { name: 'Annie Lindqvist', profileImageSrc: 'images/persona-female.png' },
+              { name: 'Roko Kolar', profileImageSrc: '', initials: 'JH' },
+              { name: 'Greta Lundberg', profileImageSrc: 'images/persona-female.png' }
+            ]
+          }
           />
-          <DocumentCardActions
+        <DocumentCardActions
           actions={
             [
               {
@@ -129,9 +129,9 @@ export class DocumentCardCompleteExample extends React.Component<any, any> {
               },
             ]
           }
-            views={ 432 }
+          views={ 432 }
           />
-        </DocumentCard>
+      </DocumentCard>
     );
   }
 
