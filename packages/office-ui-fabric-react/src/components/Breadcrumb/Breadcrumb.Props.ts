@@ -16,6 +16,13 @@ export interface IBreadcrumbProps extends React.Props<Breadcrumb> {
   componentRef?: (component: IBreadcrumb) => void;
 
   /**
+   * Optional method that computes the horizontal space (in pixels) available to the
+   * breadcrumb component for horizontal expansion. This may be necessary if the
+   * breadcrumb is an inline-block, a flex item, or floated.
+   */
+  computeAvailableWidth?: () => number;
+
+  /**
    * Collection of breadcrumbs to render
    */
   items: IBreadcrumbItem[];

@@ -207,8 +207,14 @@ export class Breadcrumb extends BaseComponent<IBreadcrumbProps, IBreadcrumbState
     let renderedOverflowItems = [].concat(items);
     let consumedWidth = 0;
 
-    let style = window.getComputedStyle(renderingArea);
-    let availableWidth = renderingArea.clientWidth - parseInt(style.marginLeft, 10) - parseInt(style.marginRight, 10);
+    let availableWidth: number | null = null;
+    if (typeof this.props.computeAvailableWidth === "function") {
+      availableWidth = this.props.computeAvailableWidth();
+    }
+    if (availableWidth === null) {
+      let style = window.getComputedStyle(renderingArea);
+      availableWidth = renderingArea.clientWidth - parseInt(style.marginLeft, 10) - parseInt(style.marginRight, 10);
+    }
 
     availableWidth -= OVERFLOW_WIDTH;
 
